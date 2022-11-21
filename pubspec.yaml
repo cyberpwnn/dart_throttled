@@ -1,0 +1,14 @@
+name: throttled
+description: Throttle function calls on a cooldown while ensuring the last call eventually runs with leaky calls.
+version: 1.0.0
+homepage: https://github.com/ArcaneArts/throttled
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+  flutter: ">=1.17.0"
+dependencies:
+  flutter:
+    sdk: flutter
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
